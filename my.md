@@ -601,6 +601,8 @@ select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 
 >>cur.fetchmany(n) 获取前n条查找到的记录，返回结果为元组嵌套元组， ((记录1),(记录2))。
 >>cur.fetchall() 获取所有查找到的记录，返回结果形式同上。
 >>cur.close() 关闭游标对象
+>
+>常用函数
 
 
 
